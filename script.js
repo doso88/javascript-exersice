@@ -312,7 +312,7 @@ console.log(upperCaseText);
 /* 4 */
 const differencePercent = (a,b) => {
     let diff = a - b ;
-    let perc = (diff*100)/a;
+    let perc = (diff/a)*100;
     return perc;
 };
 
